@@ -1,0 +1,11 @@
+What is selenium?
+
+Selenium is a widely used open source tool primarily used for automating web browsers. It supports all the programming languages like Java, Python, C#, Perl, PHP, etc and it supports various browsers like Chrome, Moxhilla, Firefox, Safari, and Internet Explorer.
+
+Why do we use selenium for automation testing?
+1. Open Source: Selenium is an open-source tool, which means it is freely available for anyone to use and modify. 
+2. Support for Multiple Programming Languages: Selenium supports multiple programming languages like Java, Python, C#, Ruby, JavaScript, etc. Testers can choose their preferred programming language to write automation scripts, making it easier to integrate with existing development frameworks and tools.
+3. Integration with Testing Frameworks: Selenium can be easily integrated with various testing frameworks such as TestNG, JUnit, NUnit, etc. This allows testers to manage and execute their test cases efficiently, generate reports, and perform parallel testing.
+4. Cross-browser Testing: Selenium allows testers to perform cross-browser testing by automating the testing process across different web browsers like Chrome, Firefox, Safari, etc. This ensures that web applications work consistently across various browsers.
+5. Regression Testing: Selenium is often used for regression testing, where previously tested functionality is retested to ensure that recent changes in the codebase have not adversely affected it. Automating this process saves time and effort compared to manual testing.
+6. Load Testing: Selenium can also be used for load testing, where scripts are executed concurrently to simulate a large number of users accessing the application simultaneously. This helps in identifying performance bottlenecks and determining the application's scalability.
