@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Example path to Chrome WebDriver 
+# path to Chrome WebDriver 
 paths = 'Users/jeyasri/Desktop/chromedriver.exe'
 
 # Add Chrome WebDriver directory to PATH
