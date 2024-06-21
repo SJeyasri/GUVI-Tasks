@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Example path to Chrome WebDriver (adjust this to your actual path)
+# Example path to Chrome WebDriver 
 paths = 'Users/jeyasri/Desktop/chromedriver.exe'
 
 # Add Chrome WebDriver directory to PATH
@@ -38,13 +38,13 @@ try:
     )
 
     # Fill in the form fields
-    name_input.send_keys("Jeyasrii")  # Example name
-    birth_month_select.send_keys("July")  # Example birth month
-    birth_day_select.send_keys("10")  # Example birth day
-    birth_year_select.send_keys("1989")  # Example birth year
-    occupation_select.send_keys("Tester")  # Example occupation
+    name_input.send_keys("Jeyasrii")  
+    birth_month_select.send_keys("July")  
+    birth_day_select.send_keys("10") 
+    birth_year_select.send_keys("1989") 
+    occupation_select.send_keys("Tester")  
 
-    # Submit the form (press the search button)
+    # press the search button
     search_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Search')]")
     search_button.click()
 
